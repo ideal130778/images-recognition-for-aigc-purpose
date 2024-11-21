@@ -1,5 +1,5 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "http://120.76.229.96/wp-admin/live2d-widget-0.9.0/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/ideal130778/images-recognition-for-aigc-purpose@main/live2d-widget-0.9.0/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -33,7 +33,7 @@ if (screen.width >= 768) {
 	]).then(() => {
 		// 配置选项的具体用法见 README.md
 		initWidget({
-			waifuPath: live2d_path + "waifu-tips.json",
+			waifuPath: "https://cdn.jsdelivr.net/gh/ideal130778/images-recognition-for-aigc-purpose@main/live2d-widget-0.9.0/waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
 			cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
